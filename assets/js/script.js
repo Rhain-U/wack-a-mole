@@ -21,3 +21,10 @@ function randomSquare() {
 console.log(randomSquare)
 
 randomSquare()
+
+function moveMole() {
+    let timerId = null
+    timerId = setInterval(randomSquare, 500)
+}
+
+moveMole()
